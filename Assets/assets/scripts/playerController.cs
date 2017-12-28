@@ -7,6 +7,7 @@ public class playerController : MonoBehaviour {
 	// variabel pergerakan
 	public float runSpeed;
 	public float walkSpeed;
+	bool lari;
 
 	Rigidbody myRb;
 	Animator myAnim;
@@ -35,6 +36,9 @@ public class playerController : MonoBehaviour {
 	}
 
 	void FixedUpdate(){
+		//lari
+		lari = false;
+
 		//lompat
 		if (grounded && Input.GetAxis ("Jump") > 0) {
 			grounded = false;
@@ -67,6 +71,8 @@ public class playerController : MonoBehaviour {
 		}
 		else {
 			myRb.velocity = new Vector3 (move * runSpeed, myRb.velocity.y, 0);
+			if (Mathf.Abs (move) > 0)
+				lari = true;
 		}
 		//end jalan dan lari
 
@@ -89,4 +95,9 @@ public class playerController : MonoBehaviour {
 		else
 			return -1;
 	}
+
+	public bool getLari(){
+		return (lari);
+	}
+
 }

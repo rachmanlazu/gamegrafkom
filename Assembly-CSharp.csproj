@@ -58,7 +58,9 @@
      <Compile Include="Assets\assets\scripts\EnemyDamage.cs" />
      <Compile Include="Assets\assets\scripts\playerController.cs" />
      <Compile Include="Assets\assets\scripts\PlayerHealth.cs" />
+     <Compile Include="Assets\assets\scripts\TembakBolaApi.cs" />
      <Compile Include="Assets\assets\scripts\TembakPeluru.cs" />
+     <Compile Include="Assets\assets\scripts\TonjokScript.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

@@ -1,15 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\EnemyDamage.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\assets\scripts\playerController.cs">
     <Files>
-      <File FileName="Assets\assets\scripts\playerController.cs" Line="1" Column="1" />
-      <File FileName="Assets\CameraFollow.cs" Line="1" Column="1" />
-      <File FileName="Assets\TembakPeluru.cs" Line="1" Column="1" />
-      <File FileName="Assets\DestroyMe.cs" Line="1" Column="1" />
-      <File FileName="Assets\ApiPeluru.cs" Line="1" Column="1" />
-      <File FileName="Assets\PlayerHealth.cs" Line="30" Column="89" />
-      <File FileName="Assets\Cleaner.cs" Line="23" Column="2" />
-      <File FileName="Assets\EnemyDamage.cs" Line="58" Column="9" />
+      <File FileName="Assets\assets\scripts\playerController.cs" Line="74" Column="13" />
+      <File FileName="Assets\assets\scripts\ApiPeluru.cs" Line="1" Column="1" />
+      <File FileName="Assets\assets\scripts\TembakBolaApi.cs" Line="20" Column="31" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
